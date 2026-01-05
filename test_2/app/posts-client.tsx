@@ -32,7 +32,7 @@ export default function PostsClient({ posts }: { posts: Post[] }) {
 
 			<ul>
 				{filteredPosts.map((post) => (
-					<li key={post.id}>{post.title}</li>
+					<li key={post.id}>- {post.title}</li>
 				))}
 			</ul>
 		</>
